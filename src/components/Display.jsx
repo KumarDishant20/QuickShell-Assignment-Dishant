@@ -35,7 +35,7 @@ const Display = ({ tickets, users, groupBy, orderBy }) => {
     return groupedTickets;
   };
 
-  const relatedUser = (userId) => users.find((u) => u.id === userId);
+  const relatedUser = (userId) => users.filter((u) => u.id === userId);
 
   const groupedTickets = groupTickets(tickets, groupBy);
   const orderedGroupedTickets = sortTickets(groupedTickets);
