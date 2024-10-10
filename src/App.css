@@ -1,0 +1,168 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f6fa;
+}
+
+/* Navbar */
+.NavContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem 1.5rem;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.NavAbsolute {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 3.5rem;
+  background-color: #f8fafb;
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 3px gray;
+  padding: 0.8rem 1.4rem;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.NavAbsolute1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  color: gray;
+}
+
+.selectCustom {
+  width: 5rem;
+  padding: 0.2rem 0.3rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.NavDisTab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.4rem;
+  box-shadow: 0px 0px 3px gray;
+  cursor: pointer;
+}
+
+/* Card */
+.TicketCard {
+  width: 320px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 3px gray;
+  padding: 0.8rem 1rem;
+  gap: 0.3rem;
+}
+
+.CardTitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.Card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.imag {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.C2 {
+  box-shadow: 0px 0px 2px gray;
+  padding: 0.3rem;
+}
+
+.C3 {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-direction: row;
+  box-shadow: 0px 0px 2px gray;
+  padding: 0.3rem;
+}
+
+.cardCircle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+/* Display */
+.Display {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+  overflow-x: scroll;
+}
+
+.Display-Horizon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.imagDisp {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.imagDisp1 {
+  width: 17px;
+  height: 17px;
+}
+
+.Display1 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Display2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.DisplayNum {
+  color: gray;
+  font-size: 1rem;
+}
